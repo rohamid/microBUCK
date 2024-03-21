@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "SIC450ED")(type "Legacy")(uri "${KIPRJMOD}/lib/SIC450ED/SIC450ED.lib")(options "")(descr ""))
+)

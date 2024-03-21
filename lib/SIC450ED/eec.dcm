@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SIC450ED-T1-GE3
+D SIC450ED-T1-GE3
+F https://www.vishay.com/docs/77863/sic450_sic451_sic453.pdf
+$ENDCMP
+# end doc library

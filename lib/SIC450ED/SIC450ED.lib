@@ -1,0 +1,72 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Vishay SIC450ED-T1-GE3
+#
+DEF SIC450ED-T1-GE3 U 0 40 Y Y 1 L N
+F0 "U" 0 200 50 H V L CNN 
+F1 "SIC450ED-T1-GE3" 0 300 50 H V L CNN 
+F2 "Vishay-T18-0377-08_2018-A-*" 0 400 50 H I L CNN 
+F3 "https://www.vishay.com/docs/77863/sic450_sic451_sic453.pdf" 0 500 50 H I L CNN 
+F4 "https://www.farnell.com/datasheets/2820763.pdf" 0 600 50 H I L CNN "LP"
+F5 "+85°C" 0 700 50 H I L CNN "ambient temperature range high"
+F6 "-40°C" 0 800 50 H I L CNN "ambient temperature range low"
+F7 "No" 0 900 50 H I L CNN "automotive"
+F8 "IC" 0 1000 50 H I L CNN "category"
+F9 "Integrated Circuits (ICs)" 0 1100 50 H I L CNN "device class L1"
+F10 "Power Management ICs" 0 1200 50 H I L CNN "device class L2"
+F11 "Voltage Regulators - Switching" 0 1300 50 H I L CNN "device class L3"
+F12 "4.5 V TO 20 V INPUT, 15 A, 25 A," 0 1400 50 H I L CNN "digikey description"
+F13 "742-SIC450ED-T1-GE3CT-ND" 0 1500 50 H I L CNN "digikey part number"
+F14 "https://www.vishay.com/docs/76600/ppak_mlp34-57.pdf" 0 1600 50 H I L CNN "footprint url"
+F15 "0.8mm" 0 1700 50 H I L CNN "height"
+F16 "Yes" 0 1800 50 H I L CNN "lead free"
+F17 "b5a5910c4fd6d9b1" 0 1900 50 H I L CNN "library id"
+F18 "Vishay" 0 2000 50 H I L CNN "manufacturer"
+F19 "+125°C" 0 2100 50 H I L CNN "max junction temp"
+F20 "20V" 0 2200 50 H I L CNN "max supply voltage"
+F21 "4.5V" 0 2300 50 H I L CNN "min supply voltage"
+F22 "78-SIC450ED-T1-GE3" 0 2400 50 H I L CNN "mouser part number"
+F23 "3.5mA" 0 2500 50 H I L CNN "nominal supply current"
+F24 "1" 0 2600 50 H I L CNN "number of outputs"
+F25 "40A" 0 2700 50 H I L CNN "output current"
+F26 "AdjustableProgrammable" 0 2800 50 H I L CNN "output type"
+F27 "0.3-12V" 0 2900 50 H I L CNN "output voltage"
+F28 "PowerWFQFN34" 0 3000 50 H I L CNN "package"
+F29 "Yes" 0 3100 50 H I L CNN "rohs"
+F30 "0mm" 0 3200 50 H I L CNN "standoff height"
+F31 "600kHz" 0 3300 50 H I L CNN "switching frequency"
+F32 "Buck" 0 3400 50 H I L CNN "switching topology"
+F33 "+125°C" 0 3500 50 H I L CNN "temperature range high"
+F34 "-40°C" 0 3600 50 H I L CNN "temperature range low"
+DRAW
+X PVCC 24 100 -300 100 R 40 40 1 1 W 
+X PVIN 1-2-3-34 100 -100 100 R 40 40 1 1 W 
+X VDD 22 100 -500 100 R 40 40 1 1 I 
+X VIN 23 100 0 100 R 40 40 1 1 I 
+X VSEN+ 12 1700 -400 100 L 40 40 1 1 P 
+X VSEN- 11 1700 -500 100 L 40 40 1 1 P 
+X ADDR 14 100 -1400 100 R 40 40 1 1 U 
+X BOOT 6 100 -800 100 R 40 40 1 1 P 
+X EN 21 100 -1200 100 R 40 40 1 1 B 
+X GH 5 1700 -1600 100 L 40 40 1 1 U 
+X GL 25 1700 -1700 100 L 40 40 1 1 W 
+X PGOOD 13 100 -1000 100 R 40 40 1 1 U 
+X PH 4 1700 0 100 L 40 40 1 1 U 
+X RT/SYNC 17 100 -1600 100 R 40 40 1 1 P 
+X SALRT 18 1700 -700 100 L 40 40 1 1 W 
+X SCL 20 1700 -900 100 L 40 40 1 1 P 
+X SDA 19 1700 -1000 100 L 40 40 1 1 P 
+X SW 26-27-28-29-30-31 1700 -200 100 L 40 40 1 1 W 
+X VSET 15 100 -1800 100 R 40 40 1 1 C 
+X NC 8 1700 -1200 100 L 40 40 1 1 P 
+X NC 9 1700 -1300 100 L 40 40 1 1 W 
+X NC 10 1700 -1400 100 L 40 40 1 1 P 
+X AGND 7 1700 -1900 100 L 40 40 1 1 P 
+X AGND 16 1700 -2000 100 L 40 40 1 1 I 
+X PGND 32-33 1700 -2100 100 L 40 40 1 1 P 
+S 200 100 1600 -2200 1 1 0 f
+ENDDRAW
+ENDDEF
+#
+# End Library

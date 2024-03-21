@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "SIC450ED")(type "KiCad")(uri "${KIPRJMOD}/lib/SIC450ED/SIC450ED.pretty")(options "")(descr ""))
+  (lib (name "IHLP5050FDERR22M01")(type "KiCad")(uri "${KIPRJMOD}/lib/IHLP5050FDERR22M01/IHLP5050FDERR22M01.pretty")(options "")(descr ""))
+  (lib (name "Plugin_terminal")(type "KiCad")(uri "${KIPRJMOD}/lib/Plugin_terminal.pretty")(options "")(descr ""))
+)

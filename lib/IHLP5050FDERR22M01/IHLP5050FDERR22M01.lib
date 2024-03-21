@@ -1,0 +1,47 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Vishay IHLP5050FDERR22M01
+#
+DEF IHLP5050FDERR22M01 L 0 40 Y Y 1 L N
+F0 "L" 0 200 50 H V L CNN 
+F1 "IHLP5050FDERR22M01" 0 300 50 H V L CNN 
+F2 "Vishay-IHLP-5050FD-FP_2.945x4.95-3D_6.4-0-0-*" 0 400 50 H I L CNN 
+F3 "http://www.vishay.com/doc?34123" 0 500 50 H I L CNN 
+F4 "53A" 0 600 50 H I L CNN "RMS current"
+F5 "No" 0 700 50 H I L CNN "automotive"
+F6 "" 0 800 50 H I L CNN "automotive grade"
+F7 "Ind" 0 900 50 H I L CNN "category"
+F8 "Wirewound" 0 1000 50 H I L CNN "composition"
+F9 "SMC" 0 1100 50 H I L CNN "core material"
+F10 "Passive Components" 0 1200 50 H I L CNN "device class L1"
+F11 "Inductors" 0 1300 50 H I L CNN "device class L2"
+F12 "Fixed Inductors" 0 1400 50 H I L CNN "device class L3"
+F13 "" 0 1500 50 H I L CNN "digikey description"
+F14 "" 0 1600 50 H I L CNN "digikey part number"
+F15 "6.4mm" 0 1700 50 H I L CNN "height"
+F16 "0.22uH" 0 1800 50 H I L CNN "inductance"
+F17 "Yes" 0 1900 50 H I L CNN "lead free"
+F18 "d8aeb7bad475eea7" 0 2000 50 H I L CNN "library id"
+F19 "Vishay" 0 2100 50 H I L CNN "manufacturer"
+F20 "" 0 2200 50 H I L CNN "mouser part number"
+F21 "SMT_INDUCTOR_13MM2_12MM9" 0 2300 50 H I L CNN "package"
+F22 "Yes" 0 2400 50 H I L CNN "rohs"
+F23 "112A" 0 2500 50 H I L CNN "saturation current"
+F24 "" 0 2600 50 H I L CNN "self resonant frequency"
+F25 "0.7mΩ" 0 2700 50 H I L CNN "series resistance"
+F26 "true" 0 2800 50 H I L CNN "shielding"
+F27 "+125°C" 0 2900 50 H I L CNN "temperature range high"
+F28 "-55°C" 0 3000 50 H I L CNN "temperature range low"
+F29 "100kHz" 0 3100 50 H I L CNN "test frequency"
+F30 "20%" 0 3200 50 H I L CNN "tolerance"
+DRAW
+X 1 1 0 0 50 R 40 0 1 1 P 
+X 2 2 400 0 50 L 40 0 1 1 P 
+A 100 0 50 0 1799 1 1 0 N 150 0 50 0
+A 200 0 50 0 1799 1 1 0 N 250 0 150 0
+A 300 0 50 0 1799 1 1 0 N 350 0 250 0
+ENDDRAW
+ENDDEF
+#
+# End Library
